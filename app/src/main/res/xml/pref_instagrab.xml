@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Preference
+        android:defaultValue="N/A"
+        android:key="@string/start_instagram"
+        android:title="@string/title_start_instagram" />
+
+    <SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="@string/clipboard_service_on_off"
+        android:summaryOff="@string/summary_start_clipboard_service_off"
+        android:summaryOn="@string/summary_start_clipboard_service_on"
+        android:title="@string/title_start_clipboard_service" />
+
+    <!--<SwitchPreferenceCompat-->
+        <!--android:defaultValue="false"-->
+        <!--android:key="@string/notification_service_on_off"-->
+        <!--android:summaryOff="This is summaryOff"-->
+        <!--android:summaryOn="This is summaryOn"-->
+        <!--android:title="this is title" />-->
+
+</PreferenceScreen>
